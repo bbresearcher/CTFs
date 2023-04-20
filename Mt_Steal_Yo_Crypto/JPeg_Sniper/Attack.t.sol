@@ -37,7 +37,7 @@ contract AttackTest is Test {
         console.log("======================================");
         // what is the attackers NFT balance before the attack
         console.log("======================================");
-        console.log("[+] NFT balance of attacker brfore attack :", flatLaunchpeg.balanceOf(attacker));
+        console.log("[+] NFT balance of attacker before attack :", flatLaunchpeg.balanceOf(attacker));
         console.log("======================================");
         
         // now instantiate our attack contract to do the attack in the constructor
