@@ -41,7 +41,7 @@ contract AttackTest is Test {
         safuStrategy.setVault(address(safuVault));
         usdcToken.approve(address(safuVault),type(uint256).max);
         safuVault.depositAll();
-        
+        vm.stopPrank();
     }
 
     function testSafuVault() public {
